@@ -1,0 +1,82 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+/* header */
+header {
+    max-width: inherit;
+    width: inherit;
+    padding: 6px 130px;
+    justify-content: space-between;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header, .header-title, ul {
+    display: flex;
+    align-items: center;
+}
+.logo-link, .accout {
+    display: inline-flex;
+}
+.burger-link {
+    display: none;
+}
+.header-title {
+    column-gap: 10px;
+}
+.pheader {
+    font-family: "Pridi", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.9px;
+    color: #FA793C;
+}
+ul {
+    column-gap: 28px;
+}
+.last-li {
+    margin-right: 8px;
+}
+.menu-link {
+    font-family: "ABeeZee", sans-serif;
+    font-family: ABeeZee;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #000000;
+}
+/* cover section */
+.cover-section {
+    height: 550px;
+    background-image: url(../img/section1_cover.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    padding: 185px 130px;
+}
+.cover-article {
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    line-height: 75px;
+}
+.pcover {
+    font-family: Kanit;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+h2, .pcover {
+    color: #ffffff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
