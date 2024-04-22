@@ -56,16 +56,19 @@ ul {
     background-size: cover;
     background-position: center;
     margin-top: 50px;
-    padding: 185px 130px;
-}
-.cover-article {
-    text-align: center;
-    margin: auto;
+    padding-inline: 130px;
+    display: flex;
     flex-direction: column;
     justify-content: center;
 }
+.cover-article {
+    text-align: center;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
 h2 {
-    margin-bottom: 20px;
     font-size: 50px;
     line-height: 75px;
 }

@@ -1,0 +1,11 @@
+/* header */
+@media (max-width: 1025px) {
+    header, .cover-section {
+        padding-inline: 92px;
+    }
+}
+@media (max-width: 834px) {
+    header, .cover-section {
+        padding-inline: 67px;
+    }
+}
