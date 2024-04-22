@@ -9,13 +9,4 @@
     .hidden-li {
         display: none;
     }
-    /* cover */ 
-    h2 {
-        font-size: 32px;
-        line-height: 40px;
-    }
-    .pcover {
-        font-size: 14px;
-        line-height: 22px;
-    }
 }
