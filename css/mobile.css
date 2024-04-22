@@ -1,3 +1,18 @@
+@media (max-width: 481px){
+    /* section 2 (articles) */
+    .article-container {
+        flex-wrap: wrap;
+    }
+    .article-discovery {
+        flex: 1 1 345px;
+    }
+    .first-article {
+        margin-bottom: 20px;
+    }
+    .section-title {
+        text-align: center;
+    }
+}
 @media (max-width: 375px) {
     .container {
         row-gap: 48px;
@@ -23,14 +38,5 @@
         font-size: 24px;
         line-height: 36px;
         text-align: center;
-    }
-    .article-container {
-        flex-wrap: wrap;
-    }
-    .article-discovery {
-        flex: 1 1 345px;
-    }
-    .first-article {
-        margin-bottom: 20px;
     }
 }
