@@ -53,11 +53,9 @@
     } 
     .img-container2 {
         flex-direction: column;
+        height: 400px;
         row-gap: 20px;
         flex: 1 1 375px;
     }
-    /* footer */
-    footer {
-        margin-top: 210px;
-    }
+
 }
