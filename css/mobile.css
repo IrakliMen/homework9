@@ -1,4 +1,7 @@
 @media (max-width: 480px){
+    header, .cover-section, .discovery {
+        padding-inline: 14px;
+    }
     /* section 2 (articles) */
     .article-container {
         flex-wrap: wrap;
@@ -12,6 +15,11 @@
     .section-title {
         text-align: center;
     }
+    /* section3 (photography) */
+    .photograph {
+        padding-inline: 14px;
+    } 
+    
 }
 @media (max-width: 375px) {
     .container {
@@ -38,5 +46,14 @@
         font-size: 24px;
         line-height: 36px;
         text-align: center;
+    }
+    /* section3 (photography) */
+    .photograph {
+        padding-inline: 0;
+    } 
+    .img-container2 {
+        flex-direction: column;
+        row-gap: 20px;
+        flex: 1 1 375px;
     }
 }
