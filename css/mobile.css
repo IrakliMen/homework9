@@ -1,10 +1,10 @@
-@media (max-width: 481px){
+@media (max-width: 480px){
     /* section 2 (articles) */
     .article-container {
         flex-wrap: wrap;
     }
     .article-discovery {
-        flex: 1 1 345px;
+        flex: 1 1 360px;
     }
     .first-article {
         margin-bottom: 20px;
