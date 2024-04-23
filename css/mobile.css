@@ -56,4 +56,8 @@
         row-gap: 20px;
         flex: 1 1 375px;
     }
+    /* footer */
+    footer {
+        margin-top: 210px;
+    }
 }
